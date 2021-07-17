@@ -23,7 +23,7 @@ for x in mydb['grabaciones'].find(consulta):
   po="<b>Archivo: "+nb["filename"]+"\nID: "+nb["ID"]+"\nFecha: "+x["fecha de grabacion"]+"</b>"
   folium.Marker([x["latitud"], x["longitud"]], popup=po, tooltip=nb["description"]).add_to(mapa)
 
-mapa.save('C:\\Users\\A\\Desktop\\t1analisis\\BASE DE DATOS\\consulta1.html')
+mapa.save('consulta1.html')
 
 #Fin Consulta 1
 
@@ -38,7 +38,7 @@ for x in mydb["grabaciones"].find(consulta):
     po="<b>Archivo: "+nb["filename"]+"\nID: "+nb["ID"]+"\nFecha: "+x["fecha de grabacion"]+"</b>"
     folium.Marker([x["latitud"], x["longitud"]], popup=po, tooltip=nb["description"]).add_to(mapa1)
 
-mapa1.save('C:\\Users\\A\\Desktop\\t1analisis\\BASE DE DATOS\\consulta2.html')
+mapa1.save('consulta2.html')
 
 #Fin Consulta 2
 
