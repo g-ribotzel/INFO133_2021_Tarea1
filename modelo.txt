@@ -1,0 +1,21 @@
+Colección “Archivos”
+
+{ 
+ID
+fecha de grabacion
+ciudad
+duracion
+formato
+latitud
+longitud
+exterior
+usuario: {RUT, nombre, apellido }
+segmentos: [
+    { ID, 
+    formato, 
+    duracion, 
+   inicio, 
+    fin,
+   etiquetas: [ { nombre_fuente, descripcion, id_analizador } ]
+ ]
+}
